@@ -28,7 +28,7 @@ var fromFilter = document.getElementById("from");
   }
 
   function initFilters() {
-    var subjects = {}, coverage = {australia:'AU'};
+    var subjects = {}, coverage = {Australia:'Australia'};
     var minYear, maxYear;
     var minDate = new Date(), maxDate = new Date(0);
     var i;
