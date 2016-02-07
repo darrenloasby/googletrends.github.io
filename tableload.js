@@ -10,7 +10,7 @@ function init(params) {
   var filters = {};
 
   var subjectFilter = document.getElementById("subject");
-  var coverageFilter = document.getElementById("coverage");
+  var coverageFilter = 'AU';
   var fromFilter = document.getElementById("from");
   var toFilter = document.getElementById("to");
   var fromPicker, toPicker;
