@@ -10,8 +10,8 @@ function init(params) {
   var filters = {};
 
   var subjectFilter = document.getElementById("subject");
-  var coverageFilter = 'AU';
-  var fromFilter = document.getElementById("from");
+var coverageFilter = document.getElementById("coverage");
+var fromFilter = document.getElementById("from");
   var toFilter = document.getElementById("to");
   var fromPicker, toPicker;
 
@@ -28,7 +28,7 @@ function init(params) {
   }
 
   function initFilters() {
-    var subjects = {}, coverage = {};
+    var subjects = {}, coverage = {australia:'AU'};
     var minYear, maxYear;
     var minDate = new Date(), maxDate = new Date(0);
     var i;
